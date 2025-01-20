@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", serif;
+  background: whitesmoke;
+}
+
+/* share code start */
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.display-flex {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .container {
+    margin: 1rem;
+  }
+}
+
+/* share code end */
+
+/* Naveber start */
+.Header {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul li {
+  margin-left: 3rem;
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav ul .Home a {
+  color: orange;
+}
+.nav ul .About a {
+  color: #01acfd;
+}
+.nav ul .Facilities a {
+  color: #05d4df;
+}
+.nav ul .Admission a {
+  color: #5d58ef;
+}
+.btn {
+  padding: 0.8rem 3rem;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.btn-color {
+  background: orange;
+}
+@media screen and (max-width: 768px) {
+  .Header {
+    flex-direction: column;
+  }
+  .head-line {
+    margin: 0;
+    text-align: center;
+  }
+}
+/* Naveber end */
+
+/* hero section start */
+.Hero {
+  justify-content: center;
+  align-items: center;
+}
+.head-line {
+  margin-right: 3rem;
+}
+
+.head-line h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+.head-line-01 {
+  color: orange;
+}
+.head-line-02 {
+  color: #01acfd;
+}
+.head-line p {
+  margin: 1.5rem 0;
+}
+.btn-color-02 {
+  background: black;
+}
+/* .hero-img img {
+  width: 100%;
+  height: auto;
+} */
+
+/* hero section responsive */
+@media screen and (max-width: 768px) {
+  .Hero {
+    flex-direction: column-reverse;
+  }
+  .head-line {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+/* hero section end */
+
+/* Standard Curriculum start */
+.Curriculum-section {
+  margin-top: 5rem;
+  background-image: url(../assets/bg.png);
+}
+.Curriculum-head {
+  justify-content: center;
+  align-items: center;
+}
+.Curriculum-head h2 {
+  font-size: 46px;
+  font-weight: bold;
+}
+.card-box {
+  margin-top: 5rem;
+}
+.Curriculum-card {
+  padding: 2.5rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.card-header {
+  margin: 1.5rem 0;
+  font-weight: 700;
+}
+.card-btn {
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+.card-bg-01 {
+  background: linear-gradient(to bottom, #d4f0fc 0%, #fcfeff 30%);
+  border: 1px solid #def5ff;
+}
+.card-bg-02 {
+  background: linear-gradient(to bottom, #fcf9d4 0%, #fcfeff 30%);
+  border: 1px solid #fcf9d4;
+}
+.card-bg-03 {
+  background: linear-gradient(to bottom, #edd4fc 0%, #fcfeff 30%);
+  border: 1px solid #edd4fc;
+}
+.head-line-03 {
+  color: #8403ce;
+}
+.icon-scrol {
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.chevron-icon {
+  padding: 1.5rem 1.9rem;
+  margin: 1rem;
+  border-radius: 50%;
+  background: orange;
+}
+.chevron-icon i {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+/* Standard Curriculum responsive */
+
+@media screen and (max-width: 768px) {
+  .card-box {
+    flex-direction: column;
+  }
+  /* .head-line {
+    margin: 0;
+    text-align: center;
+  } */
+}
+
+/* Standard Curriculum end */
